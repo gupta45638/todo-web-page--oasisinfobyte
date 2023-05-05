@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="nandini.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To_Do_List</title>
+</head>
+<body>
+  <div id="navbar-container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black" id="navbar">
+        <a class="navbar-brand" href="#"><img src="https://imgs.search.brave.com/NvxSkCAT_1LK4NxsX7kdVvSzp61lqF2SXNScCtmFvdU/rs:fit:1200:1200:1/g:ce/aHR0cDovL2NsaXBh/cnQtbGlicmFyeS5j/b20vaW1hZ2VzX2sv/cmVkLWNoZWNrLW1h/cmstdHJhbnNwYXJl/bnQvcmVkLWNoZWNr/LW1hcmstdHJhbnNw/YXJlbnQtMS5wbmc" class="logo" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto ">
+            <a class="nav-link active ancor1" href="#banner" id="ancor1">
+              Home
+              <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link ancor1" href="#feature" id="ancor1" >Features</a>
+            <a class="nav-link ancor1" href="#why" id="ancor1" >Why choose us</a>
+          </div>
+        </div>
+      </nav>
+  </div>
+  <div id="banner">
+    <div class="banner-container">
+        <div class="text-container">
+            <h1 class="banner-heading">To_Do_List</h1>
+            <p class="qoute">"Organize your life with ease: Create and manage your to-do list effortlessly"</p>
+            <p class="create">Create your own To_do_plan</p>
+            <a href="sectionaddtask.html"><button class="button1" type="button" onclick="display('#sectionaddtask')">Create</button></a>
+        </div>
+    </div>
+  </div>
+  <div id="feature">
+    <div class="Features text-center">
+      <h1 class="feature-head">Feature</h1>
+        <div class="row">
+            
+            <div class="col-12 col-md-6 col-sm-12 col-lg-4 col-xl-3 ideal-card justify-content-between text-center mb-5 ml-auto " >
+              <h3 class="ideal-heading"> Good Physique </h3>
+              <div class="ideal-task">
+                <img src="https://i.pinimg.com/236x/13/2e/38/132e38266a3fd6f94dfe7436535d7de5.jpg" class="ideal-image" alt="">
+                <a href="good-physique-page.html"><button class="card-button">view todo list</button></a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-sm-12 col-lg-4 col-xl-3 ideal-card justify-content-between text-center mb-5 ml-auto mr-auto" >
+              <h3 class="ideal-heading"> Ideal person </h3>
+              <div class="ideal-task">
+                <img src="https://i.pinimg.com/564x/e5/4f/00/e54f001ca782c181f2692204f25c68ff.jpg" class="ideal-image" alt="">
+                <a href="ideal_person.html"><button class="card-button">view todo list</button></a>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-sm-12 col-lg-4 col-xl-3 ideal-card justify-content-between text-center mb-5 mr-auto " >
+              <h3 class="ideal-heading"> Professional person </h3>
+              <div class="ideal-task">
+                <img src="https://i.pinimg.com/236x/df/00/58/df0058de3f70ab4420f39c0bd2887f1e.jpg" class="ideal-image" alt="">
+                <a href="professional.html"><button class="card-button">view todo list</button></a>
+              </div>
+            </div>
+        </div>
+        
+    </div>
+  <div id="why">
+      <div class="why_choose_us">
+            <h1 class="why_choose_us_heading">Why_Choose_Us?</h1>
+            <div class="list-container">
+            <ul>
+              <li class="list-items"><span class="list-item-heading"> User-friendly interface</span>: Our website has a clean and easy-to-use interface that makes it simple to create, organize, and manage your to-do lists.</li>
+              <li class="list-items"><span class="list-item-heading">Accessibility</span>: Our website is accessible from any device with an internet connection, so you can access your to-do lists on-the-go.</li>
+              <li class="list-items"><span class="list-item-heading">Customizability</span>: Our website allows you to customize your to-do lists with colors, tags, and priorities, so you can organize your tasks in a way that works best for you.</li>
+              <li class="list-items"><span class="list-item-heading">Free</span>: Our website is completely free to use, so you can start organizing your tasks without any cost.</li>
+              <li class="list-items"><span class="list-item-heading">Features</span>: Our website provide you features like templates for ideal person to-do list etc.</li>
+              <li class="list-items"><span class="list-item-heading">Security</span>:You can trust with your data we cannot share any information to other about your todo list. And this is prohibited to our website.</li>
+            </ul>
+            </div>
+      </div>
+  </div>
+ <div class="addtask">
+        
+            <h1 class="heading-addtask" >Create Your Own List</h1>
+            <input type="text" placeholder="Add task" id="taskInput">
+            <button onclick="addTask()">Add</button>
+            <ol id="taskList" class="additemlist"></ol>
+            <a href="index.html"><button class="back">Back</button></a>
+    
+    </div>
+  <div class="ideal-person-page">
+        <h1 class="ideal-person-title">TO_Do_List</h1>
+        <form class="list-ideal-person">
+            <label class="task">
+              <input type="checkbox" name="todo" value="1" onchange="toggleTodoCompletion(this)">
+              <span class="todo-text">Wake up early and exercise for 30 minutes.</span>
+            </label>
+            <br>
+            <label class="task">
+              <input type="checkbox" name="todo" value="2" onchange="toggleTodoCompletion(this)">
+              <span class="todo-text">Have a healthy breakfast consisting of whole grains, protein, and fruits/vegetables.</span>
+            </label>
+            <br>
+            <label class="task">
+              <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+              <span class="todo-text">Meditate for 10-15 minutes to start the day with a clear mind.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Review and prioritize tasks for the day.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Attend scheduled meetings or appointments on time</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Complete the most important and urgent tasks first.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Take regular breaks throughout the day to avoid burnout and stay refreshed.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Practice good time management to stay on track with tasks and deadlines.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Make time for self-care activities such as reading, hobbies, or spending time with loved ones.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Plan and prepare healthy meals for the day or week.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Stay organized and keep a tidy workspace.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">End the day with reflection on achievements and lessons learned.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Get enough sleep to feel rested and ready for the next day.</span>
+            </label>
+            <br>
+          </form>
+          <div class="good-physique-page">
+        <h1 class="ideal-person-title">TO_Do_List</h1>
+        <form class="list-ideal-person">
+            <label class="task">
+              <input type="checkbox" name="todo" value="1" onchange="toggleTodoCompletion(this)">
+              <span class="todo-text">Set realistic goals.</span>
+            </label>
+            <br>
+            <label class="task">
+              <input type="checkbox" name="todo" value="2" onchange="toggleTodoCompletion(this)">
+              <span class="todo-text">Create a workout plan with a mix of strength training and cardio exercises.</span>
+            </label>
+            <br>
+            <label class="task">
+              <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+              <span class="todo-text">Prioritize weight training to build muscle mass and improve overall strength.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Increase the amount of cardio exercise to improve endurance and burn fat.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Eat a balanced diet that includes plenty of protein, healthy fats, and complex carbohydrates.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Drink plenty of water throughout the day to stay hydrated.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Get 7-8 hours of sleep each night to allow your body to recover and repair.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Manage stress through activities like meditation or yoga.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Warm up before exercising to prevent injury and incorporate stretching exercises.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Monitor progress by taking measurements, tracking weight, and taking progress photos.
+                </span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Vary workouts and try new exercises to prevent boredom and keep your body challenged.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Seek support from a workout partner or fitness community.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Stay consistent with exercise and healthy eating habits.</span>
+            </label>
+            <br>
+          </form>
+          <a href="index.html"><button class="back">Back</button></a>
+    </div>
+
+
+
+          <a href="index.html"><button class="back">Back</button></a>
+    </div>
+<div class="professional-page">
+        <h1 class="ideal-person-title">TO_Do_List</h1>
+        <form class="list-ideal-person">
+            <label class="task">
+              <input type="checkbox" name="todo" value="1" onchange="toggleTodoCompletion(this)">
+              <span class="todo-text">Review your calendar and to-do list for the day.</span>
+            </label>
+            <br>
+            <label class="task">
+              <input type="checkbox" name="todo" value="2" onchange="toggleTodoCompletion(this)">
+              <span class="todo-text">Respond to urgent emails and messages.</span>
+            </label>
+            <br>
+            <label class="task">
+              <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+              <span class="todo-text">Attend meetings or schedule them as needed.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Focus on high-priority tasks and allocate time and resources effectively.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Take short breaks throughout the day to recharge and maintain focus.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Follow up on any pending tasks or projects.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Network with colleagues, mentors, or industry peers.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Seek feedback from supervisors or colleagues to identify areas for improvement.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Complete administrative tasks such as filling out expense reports or updating calendars.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Plan for upcoming projects and deadlines.
+                </span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Research new industry trends or techniques to stay current.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Take time to learn and improve skills relevant to your profession.</span>
+            </label>
+            <br>
+            <label class="task">
+                <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(this)">
+                <span class="todo-text">Review progress on goals and tasks and make adjustments as needed.</span>
+            </label>
+            <br>
+          </form>
+          <a href="index.html"><button class="back">Back</button></a>
+
+    </div>
+
+
+    
+  <script src="nandini.js"></script>
+  <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+</html>
